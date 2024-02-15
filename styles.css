@@ -1,0 +1,47 @@
+*{
+
+	font-family: Fredoka;
+
+}
+
+.pink {
+
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.navbar, section, footer {
+
+	background-color: #ECC35E;
+
+}
+
+.nav-link {
+
+	color: white;
+
+}
+
+a:link {
+	color: white;
+}
+
+.linkChange:active {
+
+	color: orange;
+}
+
+li {
+
+	margin-right: 5%;
+
+}
+
+.nav-link:active {
+
+	color: black;
+
+}
