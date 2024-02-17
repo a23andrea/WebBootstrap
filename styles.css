@@ -4,14 +4,22 @@
 
 }
 
+
 .pink {
 
-    background-color: pink;
-    height: 100px;
-    width: 100px;
+    height: 10vw;
+    width: auto;
 
 }
 
+body {
+
+	background-image: url('media/backgorund.png');
+	background-attachment: fixed;
+	background-repeat: initial;
+	background-size: contain;
+
+}
 
 .navbar, section, footer {
 
@@ -25,8 +33,10 @@
 
 }
 
-a:link {
-	color: white;
+.nav-link:hover {
+
+	color: #FF9719;
+
 }
 
 .linkChange:active {
@@ -34,9 +44,22 @@ a:link {
 	color: orange;
 }
 
+.card-text {
+
+	text-align: justify;
+
+}
+
+
 li {
 
 	margin-right: 5%;
+
+}
+
+li > a {
+
+	font-size: 1.5vw;
 
 }
 
@@ -44,4 +67,64 @@ li {
 
 	color: black;
 
+}
+
+
+@media screen and (max-width: 996px) {
+
+	li > a {
+
+		font-size: 2vw;
+
+	}
+	
+}
+
+@media screen and (max-width: 786px) {
+
+	li > a {
+
+		font-size: 3vw;
+
+	}
+
+	.pink {
+
+		height: 15vw;
+		width: auto;
+	
+	}
+	
+}
+
+
+@media screen and (max-width: 575px) {
+
+	footer {
+
+		max-height: 100px;
+
+	}
+
+	.pink {
+
+		height: 20vw;
+		width: auto;
+	
+	}
+
+	li > a {
+
+		font-size: 5vw;
+
+	}
+
+	.rrs {
+
+		max-height: 16%;
+		max-width: 16%;
+	
+
+	}
+	
 }
